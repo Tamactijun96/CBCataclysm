@@ -13,7 +13,9 @@
           <div class="card-body">
             <h5 class="card-title">Wrath of the Lich King</h5>
             <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nisi ducimus nesciunt necessitatibus, beatae libero?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem nisi ducimus nesciunt necessitatibus, beatae
+              libero?
             </p>
           </div>
         </div>
@@ -26,7 +28,8 @@
           <div class="card-body">
             <h5 class="card-title">Cataclysm</h5>
             <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit eius explicabo iusto labore ducimus tenetur.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              eius explicabo iusto labore ducimus tenetur.
             </p>
           </div>
         </div>
@@ -39,7 +42,8 @@
           <div class="card-body">
             <h5 class="card-title">Mists of Pandaria</h5>
             <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia explicabo id ratione harum atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              mollitia explicabo id ratione harum atque.
             </p>
           </div>
         </div>
@@ -52,7 +56,8 @@
           <div class="card-body">
             <h5 class="card-title">Ogame</h5>
             <p class="card-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptates quod veritatis.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+              voluptates quod veritatis.
             </p>
           </div>
         </div>
@@ -70,7 +75,7 @@ export default {
 
 <style scoped>
 
-div.mainContainer{
+div.mainContainer {
   padding-top: 80px;
 }
 
@@ -91,7 +96,7 @@ div.card {
   border: 2px solid rgba(56, 46, 44, 0.4);
 }
 
-div.card:hover{
+div.card:hover {
   border-color: rgba(170, 36, 9, 0.7);
   filter: brightness(1.25);
   transition: ease-in-out 0.2s;
@@ -112,18 +117,32 @@ p.card-text {
   font-family: "Open Sans", serif;
 }
 
-.borderEffect::after{
+.borderEffect::after {
   content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    bottom: 245px;
-    right: 5px;
-    border: 22px solid;
-    border-image: url("@/assets/Border-l.avif");
-    border-image-slice: 22 22 fill;
-    pointer-events: none;
-    z-index: 1;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 245px;
+  right: 5px;
+  border: 22px solid;
+  border-image: url("@/assets/Border-l.avif");
+  border-image-slice: 22 22 fill;
+  pointer-events: none;
+  z-index: 1;
 }
 
+
+.borderEffect::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 245px;
+  right: 5px;
+  border: 22px solid;
+  border-image: url("@/assets/Border-l.avif");
+  border-image-slice: 22 22 fill;
+  pointer-events: none;
+  z-index: 1;
+}
 </style>

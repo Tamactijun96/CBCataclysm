@@ -1,5 +1,5 @@
 <template>
-  <div class=" d-flex justify-content-center">
+  <div class="d-flex justify-content-center">
     <div class="ShitMask">
       <header class="d-flex justify-content-center">
         <div class="FeaturesHeader">
@@ -18,11 +18,13 @@
           <div>
             <ul class="list-unstyled">
               <li class="media">
-                <img
-                  class="mr-3 ImagesFeature-list-item"
-                  src="../assets/Goblins&Worgen_icon.avif"
-                  alt="Generic placeholder image"
-                />
+                <div class="imagesFeaturesList mr-2">
+                  <img
+                    class="mr-3 imagesFeaturesListItem"
+                    src="../assets/Goblins&Worgen_icon.avif"
+                    alt="Generic placeholder image"
+                  />
+                </div>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 Feature-title-item">
                     Goblins y huargen
@@ -36,11 +38,13 @@
                 </div>
               </li>
               <li class="media my-4">
-                <img
-                  class="mr-3 ImagesFeature-list-item"
-                  src="../assets/NewLevelCap_icon.avif"
-                  alt="Generic placeholder image"
-                />
+                <div class="imagesFeaturesList mr-2">
+                  <img
+                    class="mr-3 imagesFeaturesListItem"
+                    src="../assets/NewLevelCap_icon.avif"
+                    alt="Generic placeholder image"
+                  />
+                </div>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 Feature-title-item">
                     Nuevo límite de nivel
@@ -52,11 +56,13 @@
                 </div>
               </li>
               <li class="media">
-                <img
-                  class="mr-3 ImagesFeature-list-item"
-                  src="../assets/CustomizeYourCharacter_icon.avif"
-                  alt="Generic placeholder image"
-                />
+                <div class="imagesFeaturesList mr-2">
+                  <img
+                    class="mr-3 imagesFeaturesListItem"
+                    src="../assets/CustomizeYourCharacter_icon.avif"
+                    alt="Generic placeholder image"
+                  />
+                </div>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 Feature-title-item">
                     Personaliza tu personaje
@@ -73,11 +79,13 @@
           <div>
             <ul class="list-unstyled">
               <li class="media">
-                <img
-                  class="mr-3 ImagesFeature-list-item"
-                  src="../assets/Dungeons&Raids_icon.webp"
-                  alt="Generic placeholder image"
-                />
+                <div class="imagesFeaturesList mr-2">
+                  <img
+                    class="mr-3 imagesFeaturesListItem"
+                    src="../assets/Dungeons&Raids_icon.webp"
+                    alt="Generic placeholder image"
+                  />
+                </div>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 Feature-title-item">
                     Nuevas mazmorras y bandas
@@ -89,11 +97,13 @@
                 </div>
               </li>
               <li class="media my-4">
-                <img
-                  class="mr-3 ImagesFeature-list-item"
-                  src="../assets/ElementalPlanes_icon.avif"
-                  alt="Generic placeholder image"
-                />
+                <div class="imagesFeaturesList mr-2">
+                  <img
+                    class="mr-3 imagesFeaturesListItem"
+                    src="../assets/ElementalPlanes_icon.avif"
+                    alt="Generic placeholder image"
+                  />
+                </div>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 Feature-title-item">
                     Conquista los planos elementales
@@ -106,11 +116,13 @@
                 </div>
               </li>
               <li class="media">
-                <img
-                  class="mr-3 ImagesFeature-list-item"
-                  src="../assets/ExpansiveZones_icon.avif"
-                  alt="Generic placeholder image"
-                />
+                <div class="imagesFeaturesList mr-2">
+                  <img
+                    class="mr-3 imagesFeaturesListItem"
+                    src="../assets/ExpansiveZones_icon.avif"
+                    alt="Generic placeholder image"
+                  />
+                </div>
                 <div class="media-body">
                   <h5 class="mt-0 mb-1 Feature-title-item">Zonas amplias</h5>
                   <p class="FeatureDescriptions">
@@ -126,7 +138,9 @@
         </div>
         <div class="d-flex justify-content-center">
           <div class="FeaturesHeader">
-            <h3 class="d-flex justify-content-center">Actualizaciones y mejoras</h3>
+            <h3 class="d-flex justify-content-center">
+              Actualizaciones y mejoras
+            </h3>
             <h1>Reaviva el fuego</h1>
             <p class="FeaturesInfo">
               Los jugadores de Classic podrán jugar de nuevo a esta emblemática
@@ -146,21 +160,17 @@
 </template>
 
 <script>
-import CollapseBlizz from './Collapse.vue';
- 
+import CollapseBlizz from "./Collapse.vue";
+
 export default {
   name: "Characteristics",
-   components: {
+  components: {
     CollapseBlizz,
-   }
+  },
 };
 </script>
 
 <style scoped>
-
-
-
-
 .ShitMask {
   background-image: url("../assets/Features_Desktop.avif"); /* Imagen de lava como fondo */
   background-repeat: no-repeat;
@@ -173,27 +183,55 @@ export default {
 
 .FeaturesHeader {
   margin-top: 150px;
-  
-  
 }
 
 .FeaturesInfo {
   padding-top: 24px;
   width: 740px;
-
   color: #ffffffb3;
   filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.4));
   letter-spacing: 1px;
   font-size: 19px;
 }
 
-.ImagesFeature-list-item {
+.imagesFeaturesListItem {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
+
+.imagesFeaturesList {
+  border-radius: 100%;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  border: #ff4c24 2px solid;
+  padding: 3px;
+  position: relative;
+}
+
+.imagesFeaturesList::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 90%;
+  border: 2px solid #ff4c24;
+  border-radius: 100%;
   box-shadow: inset 0px 0px 20px 5px #000, 0px 0px 20px 10px #000;
- 
+}
+
+.imagesFeaturesList::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ffb800;
+  border-radius: 100%;
 }
 
 .Feature-title-item {
@@ -205,7 +243,6 @@ export default {
 .FeatureDescriptions {
   text-align: left;
   margin-top: 15px;
-  font-weight: 400;
   color: #ffffffb3;
   filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.4));
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
