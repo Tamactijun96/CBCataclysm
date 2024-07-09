@@ -30,6 +30,9 @@ export default {
   width: 2600px;
   background: url("@/assets/Footer_Desktop.avif") no-repeat;
   background-size: cover;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);   /* Division de container */
+
+
 }
 
 i.iconmain {
