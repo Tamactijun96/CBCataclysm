@@ -49,7 +49,7 @@ export default {
 .logoCataclysm-md {
   width: 480px;
   height: 200px;
-  margin-right: 0px;
+  margin-right: -3px;
   margin-top: -2px;
 }
 
@@ -60,12 +60,15 @@ export default {
   top: 160px;
   z-index: 1;
 }
-
+.CataclysmChildTitle{
+  margin-left: 2px;
+}
 
 
 span.CataclysmChildDescriptions {
-  font-size: 21px;
-  letter-spacing: 0px;
+  font-size: 20px;
+  margin-top: 3px;
+  padding-right: 6px;
   color: #ffffffb3;
   filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.4));
   letter-spacing: 0px;

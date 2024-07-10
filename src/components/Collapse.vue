@@ -107,30 +107,39 @@ export default{
   text-align: left;
   font-size: 22px;
   text-decoration: none;
+  margin-left: -30px;
+  margin-top: -24px;
+  padding-bottom: 12px;
+  
 
 }
 
 .F-title-item:focus{
   color:#fdaf29;
+  
 }
 
 .FDescriptions {
-    padding-top: 24px;
     color: #ffffffb3;
     filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.4));
     letter-spacing: 1px;
     font-size: 19px;
+    text-align: start;
+    margin-left: -16px;
 }
 
 div.card{
     background: transparent;
     border: none;
     border-bottom: #ffffff23  3px solid;
+    border-radius: 0px;
     
 }
 
 div.card-header{
     border: none;
+    background: none;
+    
 }
 
 .FullContainer{

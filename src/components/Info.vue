@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-content-center d-flex pt-5 mt-3">
+  <div class="infoContainer justify-content-center d-flex pt-4 mt-3">
     <div class="row containerRank1">
       <div class="col containerRank2">
         <h3>Vuelve Alamuerte</h3>
@@ -28,9 +28,13 @@ export default {
 </script>
 
 <style scoped>
+.infoContainer{
+  margin-bottom: -89px;
+}
 .heading {
   width: 600px;
   text-align: left;
+  
 }
 
 .size-description {
@@ -40,6 +44,7 @@ export default {
 
 .containerRank1 {
   width: 1700px;
+  
   margin-bottom: 90px;
 }
 
@@ -47,7 +52,10 @@ export default {
   padding-left: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-self: center;
+  
+  
 }
 
 

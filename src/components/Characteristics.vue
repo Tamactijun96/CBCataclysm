@@ -188,7 +188,7 @@ export default {
 
 .FeaturesInfo {
   padding-top: 24px;
-  width: 740px;
+  width: 1240px;
   color: #ffffffb3;
   filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.4));
   letter-spacing: 1px;

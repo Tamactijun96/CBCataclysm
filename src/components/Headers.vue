@@ -1,5 +1,5 @@
 <template>
-  <div class="okok ml-3 mr-3 d-flex justify-content-center">
+  <div>
     <nav class="navbar navbar-expand-lg navbar-light BlizzNavbar">
       <a class="navbar-brand" href="#"
         ><img class="logo" src="../assets/rogwow_logo_126x41.png" alt=""
@@ -16,11 +16,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-<!-- Mini logo Cataclysm -->
+        <!-- Mini logo Cataclysm -->
 
- <MiniLogoCataclysm></MiniLogoCataclysm>
+        <MiniLogoCataclysm></MiniLogoCataclysm>
 
-<!-- End Mini logo Cataclysm -->
+        <!-- End Mini logo Cataclysm -->
 
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -110,22 +110,30 @@
 </template>
 
 <script>
-import MiniLogoCataclysm from './MiniLogoCataclysm.vue'
+import MiniLogoCataclysm from "./MiniLogoCataclysm.vue";
 
 export default {
-  components:{MiniLogoCataclysm},
+  components: { MiniLogoCataclysm },
   name: "Headers",
 };
 </script>
 
 <style scoped>
+
 .BlizzNavbar {
-  margin-top: -32px;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  right: 16px;
   background-color: rgba(34, 13, 11, 0.8);
-  width: 2500px;
   height: 70px;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
+  max-width: 2500px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -137,7 +145,6 @@ export default {
 .logo:hover {
   filter: saturate(280%);
 }
-
 
 .nav-nm-text {
   font-size: 18px;
@@ -266,6 +273,7 @@ export default {
   padding-top: 14px;
   border: none;
   border-radius: 8px;
+  background: none;
   font-weight: bold;
   color: #ffffff;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
@@ -310,8 +318,17 @@ export default {
   position: absolute;
   background: rgba(34, 13, 11, 1);
   top: -10px;
-
   transform: rotate(45deg);
+}
+
+.btn-access::after {
+  content: "";
+  width: 180px;
+  height: 100px;
+  left: 55px;
+  position: absolute;
+  background: none;
+  top: -65px;
 }
 
 .btn-access:hover {
@@ -322,15 +339,10 @@ export default {
   background: rgba(34, 13, 11, 1);
 }
 
-/* .dropdown:hover>.dropdown-menu {
+.dropdown:hover > .dropdown-menu {
   display: block;
-  
+  transition-delay: 1s;
 }
-
-.dropdown>.dropdown-toggle:active {
-    pointer-events: none;
-    
-}  */
 
 .nav-nm:hover {
   background-color: rgba(54, 37, 34, 0.623);

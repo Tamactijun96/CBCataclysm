@@ -45,7 +45,7 @@ export default {
 .LogoCataclysm {
   margin-left: 3px;
   margin-right: 3px;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 </style>
