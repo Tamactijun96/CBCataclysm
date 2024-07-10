@@ -4,8 +4,8 @@
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
-        <button class="F-title-item  btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Experiencia de subida de nivel mejorada
+        <button class="F-title-item btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Experiencia de subida de nivel mejorada 
         </button>
       </h2>
     </div>
@@ -13,7 +13,7 @@
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body FDescriptions">
         Asciende a nuevas cotas de poder con una experiencia de subida de nivel más fluida y acelerada.
-    </div>
+        </div>
     </div>
   </div>
   <div class="card">
@@ -82,13 +82,18 @@
    <div class="embers-container"><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div><div class="ember-container"><div class="ember"></div></div></div>
   -->
  </div>
- 
+
 </template>
 
 <script>
+
 export default{
-    name: 'CollapseBlizz'
-}
+    name: 'CollapseBlizz',
+  
+      }
+   
+  
+
 
 </script>
 
@@ -103,6 +108,10 @@ export default{
   font-size: 22px;
   text-decoration: none;
 
+}
+
+.F-title-item:focus{
+  color:#fdaf29;
 }
 
 .FDescriptions {

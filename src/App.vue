@@ -4,7 +4,7 @@
   <characteristics></characteristics>
   <deathwing></deathwing>
   <CardGroup></CardGroup>
- <foot></foot>
+ <foots></foots>
 </template>
 
 <script>
@@ -13,9 +13,8 @@ import Banner from './components/Banner.vue'
 import Info from './components/Info.vue'
 import characteristics from './components/Characteristics.vue'
 import deathwing from './components/Deathwing.vue'
-import faq from './components/CardGroup.vue'
-import foot from './components/Footer.vue'
 import CardGroup from './components/CardGroup.vue'
+import foots from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -25,7 +24,7 @@ export default {
     characteristics,
     deathwing,
     CardGroup,
-    foot,
+    foots,
 
   }
   

@@ -12,7 +12,7 @@
           </p>
         </div>
       </header>
-
+       
       <section>
         <div class="container d-flex justify-content-center pt-5 mt-3">
           <div>
@@ -141,6 +141,7 @@
             <h3 class="d-flex justify-content-center">
               Actualizaciones y mejoras
             </h3>
+          
             <h1>Reaviva el fuego</h1>
             <p class="FeaturesInfo">
               Los jugadores de Classic podrán jugar de nuevo a esta emblemática
