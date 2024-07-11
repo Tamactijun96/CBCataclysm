@@ -1,10 +1,10 @@
 <template>
-  <Banner></Banner>
-  <Info></Info>
-  <characteristics></characteristics>
-  <deathwing></deathwing>
-  <CardGroup></CardGroup>
- <foots></foots>
+  <Banner />
+  <Info />
+  <characteristics />
+  <deathwing />
+  <CardGroup />
+ <foots />
 </template>
 
 <script>
@@ -16,6 +16,7 @@ import deathwing from './components/Deathwing.vue'
 import CardGroup from './components/CardGroup.vue'
 import foots from './components/Footer.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -25,6 +26,7 @@ export default {
     deathwing,
     CardGroup,
     foots,
+
 
   }
   

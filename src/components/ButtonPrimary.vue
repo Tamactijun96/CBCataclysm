@@ -1,23 +1,22 @@
 <template>
   <div>
-    <button class="ButtonBlizzBanner1">{{ textButton }}</button>
+    <button class="ButtonPrimary">{{ textButton }}</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "btnPrimary",
+  name: "ButtonPrimary",
   props: ["textButton"],
 };
 </script>
 
 <style scoped>
-.ButtonBlizzBanner1 {
+.ButtonPrimary {
   color: #fff;
   font-size: 24px;
   font-family: "Open Sans", serif;
   text-transform: uppercase;
-  margin-right: 22px;
   background: linear-gradient(180deg, #aa2409, #761500 100%);
   border-width: 2px;
   border-style: solid;
@@ -26,10 +25,9 @@ export default {
   font-weight: 600;
   width: 240px;
   height: 74px;
-  margin-bottom: 20px;
 }
 
-.ButtonBlizzBanner1:hover {
+.ButtonPrimary:hover {
   background: rgba(249, 65, 25, 0.7);
 }
 </style>

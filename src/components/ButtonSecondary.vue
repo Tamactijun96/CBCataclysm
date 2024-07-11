@@ -1,18 +1,19 @@
 <template>
   <div>
-    <button class="ButtonBlizzBanner2">{{ textButton }}</button>
+    <button class="ButtonSecondary">
+      {{ textButton }}
+    </button>
   </div>
 </template>
-
 <script>
 export default {
-  name: "btnSecondary",
+  name: "ButtonSecondary",
   props: ["textButton"],
 };
 </script>
 
 <style scoped>
-.ButtonBlizzBanner2 {
+.ButtonSecondary {
   font-size: 24px;
   font-family: "Open Sans", serif;
   text-transform: uppercase;
@@ -28,7 +29,7 @@ export default {
   margin-bottom: 20px;
 }
 
-.ButtonBlizzBanner2:hover {
+.ButtonSecondary:hover {
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.1) 0%,
