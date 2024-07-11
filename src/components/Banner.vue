@@ -3,7 +3,6 @@
     <div class="banners pt-5">
       <headers />
      <CataclysmBannerGroup 
-     LogoBanner="img/Kebab_Logo.91f275e8.avif"
      ChildTitle="Supera las adversidades" 
      ChildDescriptions="Cataclysm Classic se incluye en tu suscripción"
      />

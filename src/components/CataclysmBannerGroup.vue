@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="CataclysmBannerGroup">
-      <img class="logoCataclysm-md" :src="LogoBanner" alt="" />
+      <img class="logoCataclysm-md" src="@/assets/Kebab_Logo.avif" alt="" />
       <div>
         <h2 class="CataclysmChildTitle">{{ ChildTitle }}</h2>
       </div>
@@ -28,7 +28,7 @@ import ButtonSecondary from "./ButtonSecondary.vue";
 export default {
   name: "CataclysmBannerGroup",
   props: {
-    LogoBanner: String,
+    
     ChildTitle: String,
     ChildDescriptions: String,
   },

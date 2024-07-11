@@ -97,12 +97,8 @@
           </div>
         </li>
         <form class="form-inline">
-          <button class="ButtonBlizzHeader2 pt-1" type="submit">
-            Suscribirse
-          </button>
-          <button class="ButtonBlizzHeader1 pt-1" type="submit">
-            Comprar mejoras
-          </button>
+          <ButtonHeaderOne textButton="Suscribirse" />
+          <ButtonHeaderTwo textButton="Comprar mejoras" />
         </form>
       </div>
     </nav>
@@ -111,15 +107,16 @@
 
 <script>
 import MiniLogoCataclysm from "./MiniLogoCataclysm.vue";
+import ButtonHeaderTwo from "./ButtonHeaderTw.vue";
+import ButtonHeaderOne from "./ButtonHeaderOne.vue";
 
 export default {
-  components: { MiniLogoCataclysm },
+  components: { MiniLogoCataclysm, ButtonHeaderOne, ButtonHeaderTwo },
   name: "Headers",
 };
 </script>
 
 <style scoped>
-
 .BlizzNavbar {
   position: fixed;
   top: 16px;
@@ -171,62 +168,6 @@ export default {
   color: #ffffff80;
   font-size: 19px;
 }
-
-.ButtonBlizzHeader1 {
-  font-weight: inherit;
-  background-color: #000000;
-  width: 194px;
-  height: 49px;
-  letter-spacing: 0px;
-  margin-left: 10px;
-  margin-right: -5px;
-  margin-top: 1px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  color: #ffffff;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-  text-align: center;
-  line-height: normal;
-  transition: var(--transition-hover);
-  font-size: 16px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  align-items: center;
-}
-
-.ButtonBlizzHeader2 {
-  font-weight: inherit;
-  background-color: #761500;
-  width: 137px;
-  height: 49px;
-  margin-right: 7px;
-  letter-spacing: 0px;
-  border: none;
-  margin-top: 1px;
-  border-radius: 8px;
-  font-weight: 600;
-  color: #ffffff;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-  text-align: center;
-  line-height: normal;
-  transition: var(--transition-hover);
-  font-size: 16px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  align-items: center;
-}
-
-.ButtonBlizzHeader2:hover {
-  background-color: #a01d00;
-}
-
-.ButtonBlizzHeader1:hover {
-  background-color: #151515;
-}
-
 .ButtonAccount {
   font-weight: inherit;
   width: 140px;
