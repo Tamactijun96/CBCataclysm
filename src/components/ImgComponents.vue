@@ -1,19 +1,19 @@
 <!-- Componente del video de la segunda seccion -->
 <template>
   <div class="col videoImgOverlay">
-    <video
-      class="videoImg"
-      poster="@/assets/LaunchTrailer_Thumbnail.jpg"
-      controls
-      src="@/assets/[Cataclysm_Launch]_masthead.webm"
+    <img
+      height="350"
+      width="700"
+      src="../assets/MountsPetsand_Transmogs.avif"
       alt=""
-    ></video>
+      class="videoImg"
+    />
   </div>
 </template>
 
 <script>
 export default {
-  name: "videoComponent",
+  name: "ImgComponent",
 };
 </script>
 

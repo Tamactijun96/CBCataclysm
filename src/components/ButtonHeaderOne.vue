@@ -21,6 +21,7 @@ export default {
 <style scoped>
 
 .ButtonBlizz {
+  
   font-weight: inherit;
   background-color: #761500;
   width: 137px;
@@ -31,6 +32,7 @@ export default {
   margin-top: 1px;
   border-radius: 8px;
   font-weight: 600;
+  outline: none;
   color: #ffffff;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   text-align: center;

@@ -231,6 +231,7 @@ export default {
 }
 
 .btn-access {
+  outline: none;
   font-weight: inherit;
   width: 280px;
   height: 50px;

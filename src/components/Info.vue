@@ -28,13 +28,12 @@ export default {
 </script>
 
 <style scoped>
-.infoContainer{
+.infoContainer {
   margin-bottom: -89px;
 }
 .heading {
   width: 600px;
   text-align: left;
-  
 }
 
 .size-description {
@@ -44,7 +43,7 @@ export default {
 
 .containerRank1 {
   width: 1700px;
-  
+
   margin-bottom: 90px;
 }
 
@@ -54,10 +53,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   align-self: center;
-  
-  
 }
-
 
 p.description {
   padding-top: 24px;

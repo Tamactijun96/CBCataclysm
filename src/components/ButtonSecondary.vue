@@ -1,20 +1,24 @@
 <template>
   <div>
-    <button class="ButtonSecondary">
+    <button class="ButtonSecondary" >
       {{ textButton }}
     </button>
   </div>
 </template>
 <script>
+
 export default {
   name: "ButtonSecondary",
   props: ["textButton"],
+
 };
 </script>
 
 <style scoped>
+
 .ButtonSecondary {
   font-size: 24px;
+  outline: none;
   font-family: "Open Sans", serif;
   text-transform: uppercase;
   color: #f8b700;

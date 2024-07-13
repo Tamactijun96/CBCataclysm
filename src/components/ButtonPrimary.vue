@@ -14,6 +14,7 @@ export default {
 <style scoped>
 .ButtonPrimary {
   color: #fff;
+  outline: none;
   font-size: 24px;
   font-family: "Open Sans", serif;
   text-transform: uppercase;

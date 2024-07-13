@@ -11,12 +11,14 @@
           src="../assets/[Cataclysm_Launch]_masthead.webm"
           no-ratio=""
           muted=""
+          autoplay
           loop=""
           playsinline=""
           listening=""
         ></video>
       </div>
     </div>
+    
   </div>
 </template>
 

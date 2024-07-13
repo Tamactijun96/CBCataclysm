@@ -177,7 +177,8 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   width: 2600px;
-  mask-image: url("../assets/features-mask-image-v5.png");
+  height: 1926px;
+  mask-image: url("../assets/features-mask-image-v5.png"); 
   -webkit-mask-box-image: url("../assets/features-mask-image-v5.png");
   mask-border-slice: 60 1200 fill;
 }

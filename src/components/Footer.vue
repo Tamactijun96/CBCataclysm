@@ -11,13 +11,15 @@
         <i class="iconmain fab fa-discord mt-4" aria-hidden="true"></i>
         <i class="iconmain fa fa-instagram mt-4" aria-hidden="true"></i>
       </div>
+      
     </div>
   </div>
 </template>
 
 <script>
-
+import fire from './fire.vue'
 export default {
+  components:{fire},
   name: "foot",
 };
 </script>
@@ -28,7 +30,7 @@ export default {
   width: 2600px;
   background: url("@/assets/Footer_Desktop.avif") no-repeat;
   background-size: cover;
-  border-top: 2px solid rgba(255, 255, 255, 0.2); /* Division de container */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Division de container */
 }
 
 i.iconmain {

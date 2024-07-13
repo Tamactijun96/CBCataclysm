@@ -35,11 +35,9 @@ export default {
 
 .GamePack {
   margin-top: 750px;
+    
 }
 
-.tt {
-  margin-bottom: 100px;
-}
 
 .FeaturesInfo {
   padding-top: 24px;
@@ -51,7 +49,7 @@ export default {
 }
 
 .fcontainer {
-  padding-top: 0px;
+  padding-top: 110px;
   margin-top: -170px;
 }
 </style>
